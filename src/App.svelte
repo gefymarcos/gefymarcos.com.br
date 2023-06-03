@@ -1,6 +1,6 @@
 <script lang="ts">
   import githubLogo from "./assets/github.svg";
-  import gmailLogo from "./assets/gmail.svg";
+  import slidesLogo from "./assets/slides.svg";
   import twitterLogo from "./assets/twitter.svg";
   import linkedinLogo from "./assets/linkedin.svg";
   import code4tubaLogo from "./assets/code4tuba.svg";
@@ -27,28 +27,28 @@
     </h1>
 
     <a href="https://twitter.com/gefymarcos" target="_blank" rel="noreferrer">
-      <img src={twitterLogo} class="logo github" alt="Github Logo" />
+      <img src={twitterLogo} class="logo" alt="Twitter Logo" />
     </a>
     <a href="https://github.com/gefymarcos" target="_blank" rel="noreferrer">
-      <img src={githubLogo} class="logo github" alt="Github Logo" />
+      <img src={githubLogo} class="logo" alt="Github Logo" />
     </a>
     <a
-      href="mailto:gefymarcos@gmail.com"
+      href="https://speakerdeck.com/gefymarcos"
       target="_blank"
       rel="noreferrer"
-      title="Email"
+      title="Slides"
     >
-      <img src={gmailLogo} class="logo github" alt="Github Logo" />
+      <img src={slidesLogo} class="logo" alt="Slides Logo" />
     </a>
     <a
       href="https://linkedin.com/in/geffersonmarcos"
       target="_blank"
       rel="noreferrer"
     >
-      <img src={linkedinLogo} class="logo github" alt="Github Logo" />
+      <img src={linkedinLogo} class="logo" alt="Linkedin Logo" />
     </a>
     <a href="https://code4tuba.com.br" target="_blank" rel="noreferrer">
-      <img src={code4tubaLogo} class="logo code4tuba" alt="Code4tuba Logo" />
+      <img src={code4tubaLogo} class="logo" alt="Code4tuba Logo" />
     </a>
   </div>
 </main>
@@ -56,13 +56,14 @@
 <style>
   .logo {
     height: 2rem;
+    width: 2rem;
     padding: 1rem;
     will-change: filter;
   }
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+    filter: drop-shadow(0 0 2em #6633ffaa);
   }
-  .logo.github:hover {
+  /* .logo.github:hover {
     filter: drop-shadow(0 0 2em #fff1f1aa);
-  }
+  } */
 </style>

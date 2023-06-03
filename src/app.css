@@ -17,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #63f;
   text-decoration: inherit;
 }
 a:hover {
@@ -56,7 +56,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #63f;
 }
 button:focus,
 button:focus-visible {
@@ -83,22 +83,34 @@ h1 span {
 }
 
 @keyframes move-text {
-  0% { opacity: 1; }
-  50% { }
-  100% { bottom: 0; opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes cursor {
-  0% { opacity: 0; }
-  50% { opacity: 50; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .cursor {
   display: inline-block;
   width: 10px;
   height: 2rem;
-  background: #646cff;
+  background: #63f;
   border-radius: 1px;
   animation: cursor 1s infinite;
   animation-delay: 2s;
